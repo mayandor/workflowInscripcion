@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Chivo', sans-serif;
+} 
+img{
+    float: right;
+    height: 60;
+    border-radius: 50%;  
+}
+.topnavbar{
+    overflow: hidden;
+    background-color: #d8cdcd;
+}
+.topnavbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnavbar span {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

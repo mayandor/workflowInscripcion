@@ -1,0 +1,53 @@
+table {
+    color: #ddd;
+  width: 90%;
+  margin-top: 8%;
+  /* margin-right: 20%; */
+  margin-left: 4%;
+  background-color: #271d64;
+  border-collapse: collapse;
+}
+thead, tr{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+td{
+    padding-left: 7px;
+    padding-right:7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+tr:hover{
+    background-color: #847dad;
+}
+.botonmat {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: #5e0f04;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .botonmatDisable{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: #5e0f04;
+    color: #fff;
+    padding: 10px 20px;
+    pointer-events: none;
+    cursor: default;
+  }
+  .disable {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: #979594;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+    padding: 10px 20px;
+  }
